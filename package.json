@@ -1,7 +1,7 @@
 {
   "name": "alter-case",
   "version": "1.0.1",
-  "description": "",
+  "description": "A versatile npm package for converting text to different casing styles, including lowercase, uppercase, title case, and sentence case.",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
   "files": [
@@ -23,7 +23,21 @@
     "type": "git",
     "url": "https://github.com/sheheemmulakkal/alter-case"
   },
-  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/sheheemmulakkal/alter-case/issues"
+  },
+  "keywords": [
+    "altercase",
+    "lowercase",
+    "uppercase",
+    "title case",
+    "sentence case",
+    "text-transform",
+    "case style",
+    "text transform",
+    "text format",
+    "text style"
+  ],
   "author": "Muhammed Sheheem shaimonsheheem@gmail.com",
   "license": "ISC",
   "devDependencies": {
