@@ -10,7 +10,14 @@
   "scripts": {
     "clean": "del-cli ./build/*",
     "build": "npm run clean && tsc",
-    "start": "ts-node-dev ./src/index.ts"
+    "start": "ts-node-dev ./src/index.ts",
+    "prepack": "npmignore --auto"
+  },
+  "publishConfig": {
+    "ignore": [
+      "!build/",
+      "src/"
+    ]
   },
   "repository": {
     "type": "git",
@@ -21,6 +28,7 @@
   "license": "ISC",
   "devDependencies": {
     "del-cli": "^5.1.0",
+    "npmignore": "^0.3.1",
     "typescript": "^5.3.3"
   },
   "dependencies": {
