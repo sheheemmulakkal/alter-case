@@ -11,6 +11,7 @@
 ![npm bundle size](https://img.shields.io/bundlephobia/min/alter-case)
 ![NPM Version](https://img.shields.io/npm/v/alter-case)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/sheheemmulakkal/alter-case)
+![NPM Downloads](https://img.shields.io/npm/dw/alter-case)
 
 <br>
 
