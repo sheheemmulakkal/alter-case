@@ -39,6 +39,7 @@ const { toTitleCase, toSentenceCase } = require("alter-case");
 
 or
 
+
 ```js
 import { toTitleCase, toSentenceCase } from "alter-case";
 ```
